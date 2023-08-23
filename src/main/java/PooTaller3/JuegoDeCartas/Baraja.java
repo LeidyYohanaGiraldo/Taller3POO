@@ -40,45 +40,4 @@ public class Baraja {
         }
         return null;
     }
-//    private ICarta[] cartas;
-//    private int indiceActual;
-//
-//    public Baraja() {
-//        cartas = new ICarta[40];
-//        int indice = 0;
-//        for (int i = 1; i <= 12; i++) {
-//            if (i != 8 && i != 9) {
-//                cartas[indice++] = new Espadas(i);
-//                cartas[indice++] = new Copas(i);
-//                cartas[indice++] = new Oros(i);
-//                cartas[indice++] = new Bastos(i);
-//            }
-//        }
-//    }
-//
-//    public void repartirCartas(int cantidad, Jugador jugador) {
-//        for (int i = 0; i < cantidad; i++) {
-//            if (indiceActual < cartas.length) {
-//                ICarta carta = cartas[indiceActual++];
-//                jugador.agregarCarta(carta);
-//            }
-//        }
-//    }
-//
-//    public void mostrarBaraja() {
-//
-//        System.out.println("Ocho Loco");
-//        for (int i = 0; i < cartas.length; i++) {
-//            System.out.println(cartas[i].mostrarCarta());
-//        }
-//    }
-//
-//    public void mezclarBaraja() {
-//        for (int i = 0; i < cartas.length; i++) {
-//            int j = (int) (Math.random() * cartas.length);
-//            ICarta temp = cartas[i];
-//            cartas[i] = cartas[j];
-//            cartas[j] = temp;
-//        }
-//    }
 }

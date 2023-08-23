@@ -35,7 +35,7 @@ public class Juego {
         while (true) {
             String opcion = JOptionPane.showInputDialog("¿Deseas continuar jugando ocho loco? (s para salir)");
             if ("s".equalsIgnoreCase(opcion)) {
-                JOptionPane.showMessageDialog(null, "Juego cancelado por el jugador, " +jugadorActual);
+                JOptionPane.showMessageDialog(null, "Juego cancelado por el jugador ");
                 break; 
             }
             JOptionPane.showMessageDialog(null, "\nTurno de " + jugadorActual.getNombre());
